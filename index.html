@@ -53,11 +53,6 @@
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         canvas.style.width = "480px";
         canvas.style.height = "270px";
- 
-         mobileWarning.style.display = "block";
-         setTimeout(() => {
-           mobileWarning.style.display = "none";
-         }, 5000);
       } else {
         canvas.style.width = "960px";
         canvas.style.height = "540px";
